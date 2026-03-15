@@ -1,0 +1,14 @@
+# 知识图谱构建工具配置
+
+# API 配置 (支持 DeepSeek, OpenAI, OpenRouter, Kimi 等)
+api:
+  key: "YOUR-DEEPSEEK-API-KEY"
+  base_url: "https://api.deepseek.com"
+  model: "deepseek-chat"
+  timeout: 60
+  max_retries: 3
+
+# 输出配置
+output:
+  knowledge_graph_file: "output/knowledge_graph.json"
+  summary_file: "output/summary.txt"

@@ -1,0 +1,128 @@
+{
+  "knowledge_graph": {
+    "entities": [
+      {
+        "id": "e1",
+        "name": "鲁镇",
+        "type": "地点",
+        "description": "故事发生的主要地点，是一个封建社会的缩影，街道分为学堂街、酒店街和垃圾堆三部分"
+      },
+      {
+        "id": "e2",
+        "name": "鲁四老爷",
+        "type": "人物",
+        "description": "鲁镇的名流，讲理学的老监生，执着于封建礼教，对祥林嫂的命运持冷漠态度"
+      },
+      {
+        "id": "e3",
+        "name": "祥林嫂",
+        "type": "人物",
+        "description": "文章的主要人物，勤劳朴实的农村妇女，因封建礼教压迫而走向悲剧，经历两次婚姻和丧夫丧子之痛"
+      },
+      {
+        "id": "e4",
+        "name": "柳妈",
+        "type": "人物",
+        "description": "鲁镇上的善女人，用封建迷信恐吓祥林嫂，导致其精神崩溃"
+      },
+      {
+        "id": "e5",
+        "name": "封建礼教",
+        "type": "概念",
+        "description": "封建社会中的道德规范和行为准则，在文中表现为对妇女的压迫和迫害"
+      },
+      {
+        "id": "e6",
+        "name": "理学",
+        "type": "概念",
+        "description": "鲁四老爷信奉的学说，体现在他的书籍和朱熹的条幅中"
+      },
+      {
+        "id": "e7",
+        "name": "朱熹",
+        "type": "人物",
+        "description": "理学代表人物，鲁四老爷书房中挂有其条幅"
+      },
+      {
+        "id": "e8",
+        "name": "学堂街",
+        "type": "地点",
+        "description": "鲁镇街道的一部分，有鲁四老爷的书塾"
+      },
+      {
+        "id": "e9",
+        "name": "酒店街",
+        "type": "地点",
+        "description": "鲁镇街道的一部分，是人们饮酒聊天的地方"
+      },
+      {
+        "id": "e10",
+        "name": "垃圾堆",
+        "type": "地点",
+        "description": "鲁镇街道的一部分，是中国南方常见的脏乱差的地方"
+      }
+    ],
+    "relationships": [
+      {
+        "source": "鲁四老爷",
+        "target": "鲁镇",
+        "relation": "居住于"
+      },
+      {
+        "source": "鲁四老爷",
+        "target": "学堂街",
+        "relation": "拥有书塾"
+      },
+      {
+        "source": "鲁四老爷",
+        "target": "理学",
+        "relation": "信奉"
+      },
+      {
+        "source": "鲁四老爷",
+        "target": "朱熹",
+        "relation": "崇拜"
+      },
+      {
+        "source": "鲁四老爷",
+        "target": "祥林嫂",
+        "relation": "冷漠对待"
+      },
+      {
+        "source": "祥林嫂",
+        "target": "鲁镇",
+        "relation": "生活于"
+      },
+      {
+        "source": "祥林嫂",
+        "target": "封建礼教",
+        "relation": "受迫害于"
+      },
+      {
+        "source": "柳妈",
+        "target": "鲁镇",
+        "relation": "居住于"
+      },
+      {
+        "source": "柳妈",
+        "target": "祥林嫂",
+        "relation": "恐吓"
+      },
+      {
+        "source": "封建礼教",
+        "target": "劳动妇女",
+        "relation": "迫害"
+      },
+      {
+        "source": "文章",
+        "target": "封建礼教",
+        "relation": "批判"
+      },
+      {
+        "source": "文章",
+        "target": "旧中国农村",
+        "relation": "揭示社会现实"
+      }
+    ]
+  }
+}
